@@ -153,16 +153,8 @@ body {
     margin-top: 20px;
 }
 
-.section_choose .section-title  {
-    margin-bottom: 24px;
-}
-
-.section_specifications .section-title {
+.section-title  {
     margin-bottom: 80px;
-}
-
-.section_durability  .section-title {
-    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1600px) {
