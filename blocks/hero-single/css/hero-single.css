@@ -92,6 +92,8 @@
     height: auto;
     margin-bottom: 4px;
 
+    background-color: var(--white, #FFFFFF);
+
     cursor: pointer;
 }
 
