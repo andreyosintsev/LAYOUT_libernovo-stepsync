@@ -111,7 +111,7 @@
 
             const popupFormData = new FormData(popupForm);
 
-            fetch('api/sendmail.php', {
+            fetch('../../api/sendmail.php', {
                 method: 'POST',
                 body: popupFormData
             })
@@ -175,7 +175,7 @@
 
         const specs = getSelectedSpecs(button && button.form) || '';
 
-        const fullProduct = (product + '<br>'+ specs).trim();
+        const fullProduct = (product + ', '+ specs).trim();
 
         inputProduct.value = fullProduct;
         popupProduct.innerHTML = `${fullProduct}`;
